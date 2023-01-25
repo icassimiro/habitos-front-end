@@ -27,6 +27,7 @@
   align-items: center;
   justify-content: center;
   margin-left: 10rem;
+  cursor: pointer;
 }
 .divbtn {
   width: 100%;
@@ -59,7 +60,7 @@
   padding: 1.07rem;
   font-size: 22px;
   font-weight: bold;
-  color: blue;
+  color: grey;
 }
 .daysbtn {
   width: 70%;
@@ -155,4 +156,5 @@
   width: 120px;
   height: 4vh;
   border: 2px solid blueviolet;
+  cursor: pointer;
 }
