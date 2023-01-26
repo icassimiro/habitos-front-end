@@ -38,7 +38,7 @@
   display: flex;
   width: 100%;
   height: 58vh;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 .days {
   width: 20%;
@@ -51,9 +51,13 @@
 }
 
 .btns2 {
-  width: 95%;
+  width: 50%;
+
+  grid-template-columns: repeat(4, 7fr);
   display: grid;
-  grid-template-columns: repeat(31, 1fr);
+  flex-direction: column;
+
+  padding-bottom: 1.2rem;
 }
 .week {
   margin-left: 20rem;
@@ -63,10 +67,10 @@
   color: grey;
 }
 .daysbtn {
-  width: 70%;
+  width: 20%;
   height: 4vh;
-  border-radius: 4px;
-  background-color: grey;
+  border-radius: 5px;
+  background-color: #201e1d;
   margin: 0.7rem;
 }
 
@@ -90,7 +94,8 @@
 .h3 {
   color: grey;
   padding: 2rem;
-  font-size: 30px;
+  font-size: 24px;
+  font-weight: 900;
   display: flex;
   justify-content: center;
   background-color: black;
@@ -101,12 +106,15 @@
   background-color: black;
   color: grey;
   font-size: 18px;
-  font-weight: bold;
+
   padding: 2rem;
 }
 
 .input {
   font-size: 18px;
+  height: 3.2vh;
+  width: 80%;
+  border-radius: 3px;
 }
 .divinput {
   display: flex;
@@ -119,7 +127,6 @@
   justify-content: center;
   padding: 2rem;
   color: grey;
-  font-weight: bold;
 }
 
 .confirmbtn {
@@ -131,16 +138,17 @@
   align-items: center;
 }
 .subbtn {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
-  border: 2px solid blueviolet;
-  width: 120px;
-  height: 4vh;
+  border: 3px solid grey;
+  width: 113px;
+  height: 3.5vh;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   color: grey;
+  border-radius: 5px;
 }
 .divclose {
   display: flex;
@@ -149,12 +157,56 @@
 }
 .close {
   margin-top: 3rem;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
 
   color: grey;
   width: 120px;
   height: 4vh;
-  border: 2px solid blueviolet;
+  border: 3px solid grey;
   cursor: pointer;
+  border-radius: 5px;
+}
+
+.test {
+  width: 300px;
+  height: 15vh;
+  background-color: #151414;
+  color: black;
+  border-radius: 5px;
+  padding: 2rem;
+}
+.thursday {
+  display: flex;
+  justify-content: center;
+  background-color: #151414;
+  color: grey;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.date {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  background-color: #151414;
+  font-size: 25px;
+  font-weight: bold;
+  color: grey;
+}
+.allprogress {
+  width: 100%;
+  height: 2vh;
+  background-color: grey;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+
+.progress {
+  height: 2vh;
+
+  border-radius: 5px;
+}
+.bar {
+  color: blueviolet;
 }

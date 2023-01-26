@@ -4,7 +4,7 @@ import { generateRange } from "./utils/generateRange";
 const weekDays = ["D", "S", "T", "Q", "Q", "S", "S"];
 const summaryDates = generateRange();
 
-const minimumSummary = 7 * 34.5714286;
+const minimumSummary = 5 * 5.7;
 const amountDays = minimumSummary - summaryDates.length;
 
 export function Table() {
@@ -25,7 +25,7 @@ export function Table() {
       <div className="btns">
         <div className="btns2">
           {summaryDates.map((date) => {
-            return <HabitDay />;
+            return <HabitDay key={toString} />;
           })}
           {amountDays > 0 &&
             Array.from({ length: amountDays }).map((_, i) => {

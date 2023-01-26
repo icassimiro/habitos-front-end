@@ -7,7 +7,7 @@ export function HabitForm() {
           className="input"
           type="text"
           id="title"
-          placeholder="ex.: Exercícios, dormir bem, etc..."
+          placeholder="Ex: Exercícios, dormir, etc..."
           autoFocus
         />
       </div>
