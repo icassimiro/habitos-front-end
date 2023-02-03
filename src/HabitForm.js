@@ -14,9 +14,9 @@ export function HabitForm() {
 
       <label className="reference">Qual a recorrência?</label>
       <div className="confirmbtn">
-        <buttton className="subbtn" type="submit">
+        <button className="subbtn" type="submit">
           Confirmar
-        </buttton>
+        </button>
       </div>
     </form>
   );
